@@ -23841,9 +23841,9 @@ var _FindAll = __webpack_require__(203);
 
 var _FindAll2 = _interopRequireDefault(_FindAll);
 
-var _create = __webpack_require__(231);
+var _Create = __webpack_require__(231);
 
-var _create2 = _interopRequireDefault(_create);
+var _Create2 = _interopRequireDefault(_Create);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -23889,7 +23889,7 @@ var App = function (_Component) {
                     OperationComponent = _react2.default.createElement(_FindAll2.default, { changeOperation: this.changeOperation });
                     break;
                 case 'create':
-                    OperationComponent = _react2.default.createElement(_create2.default, { changeOperation: this.changeOperation });
+                    OperationComponent = _react2.default.createElement(_Create2.default, { changeOperation: this.changeOperation });
                     break;
                 default:
                     break;

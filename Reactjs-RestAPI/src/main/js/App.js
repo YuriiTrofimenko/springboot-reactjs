@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import FindAll from './FindAll';
-import Create from './create';
+import Create from './Create';
 
 class App extends Component {
 	
